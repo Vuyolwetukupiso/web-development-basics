@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 80;
+}
+
+.nav-container{
+    background-color: wheat;
+    border: 1px wheat;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.right-side{
+    list-style-type: none;
+}
+
+.left-side{
+    list-style-type: none;
+}
+
+.right-side li, .left-side li{
+    display: inline-block;
+}
+
+
+
+
